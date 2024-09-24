@@ -1,0 +1,30 @@
+//
+//  ContentView.swift
+//  revered_places
+//
+//  Created by Andrei Belyi on 24/09/24.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Color(.black)
+        VStack {
+            Image("waterfall")
+                .resizable()
+                .cornerRadius(15.0)
+                .aspectRatio(contentMode: .fit)
+                .padding(.all)
+            Text("Waterfall")
+                .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
+                .fontWeight(.semibold)
+                .foregroundColor(Color.purple)
+        }
+        
+    }
+}
+
+#Preview {
+    ContentView()
+}
